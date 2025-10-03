@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Text, DateTime, Boolean, JSON, F
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 
-from db.database import Base
+from backend.db.database import Base
 
 class Story(Base):
     __tablename__ = "stories"
